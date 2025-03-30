@@ -1,11 +1,35 @@
-.header {}
+.header {
+  margin: 92px 50px 96px 50px;
+}
 
-.corver {}
+.cover {
+  padding: 165px 50px 50px 50px;
+  margin-bottom: 180px;
+  background: url(../images/cover.jpg);
+}
+
+.card-lot-01 {
+  background: url(../images/card-lot-01.jpg);
+}
+
+.card-lot-02 {
+  background: url(../images/card-lot-02.jpg);
+}
+
+.card-lot-03 {
+  background: url(../images/card-lot-03.jpg);
+}
 
 .description {}
 
-.lots {}
+.lots {
+  margin-bottom: 120px;
+}
 
-.about {}
+.about {
+  margin-bottom: 180px;
+}
 
-.footer {}
+.footer {
+  margin-bottom: 82px;
+}
