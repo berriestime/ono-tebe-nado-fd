@@ -27,6 +27,7 @@ blockquote {
 
 a {
   color: inherit;
+  text-decoration: underline 0.5px;
 }
 
 img {
@@ -35,4 +36,8 @@ img {
 
 button {
   font: inherit;
+}
+
+address {
+  font-style: normal;
 }
