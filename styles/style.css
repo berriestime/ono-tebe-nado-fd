@@ -131,9 +131,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  color: #fff;
 }
 
 .lots__card-list-item {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 334px;
@@ -148,6 +150,10 @@
 .card,
 .card-link {
   height: 100%;
+}
+
+.card-link {
+z-index: 1;
 }
 
 .card {
