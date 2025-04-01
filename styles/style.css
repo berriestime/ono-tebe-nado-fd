@@ -153,7 +153,7 @@
 }
 
 .card-link {
-z-index: 1;
+  z-index: 1;
 }
 
 .card {
@@ -197,7 +197,56 @@ a .card__text {
 }
 
 .about {
-  margin-bottom: 180px;
+  margin: 155px 24px 180px 24px;
+}
+
+.about__column {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  gap: 6px 25px;
+}
+
+.about__logo {
+  grid-column: 1;
+}
+
+.about__title,
+.about__text {
+  grid-column: 2;
+  align-self: center;
+}
+
+.about__text {
+  margin-bottom: 18px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.about__text:last-of-type {
+  margin-bottom: 0;
+}
+
+
+.about__logo {
+  display: flex;
+  place-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .footer {
